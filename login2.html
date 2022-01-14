@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+	<head>
+			<title>Login</title>
+			<link rel="shortcut icon" href="icone2.png">
+		
+		<meta charset="UTF-8">
+		<link language="javascript" src="login2.js">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+		<style>
+			body{
+					font-family: serif;
+					background-image: url("back.jpg");
+					background-repeat: no-repeat;
+					background-position: center;
+					background-size: cover;
+					height: 500px;
+			}
+
+			ul{
+				font-size: 24px;
+	
+			}
+
+			input{
+				border-radius: 20px;
+			}
+
+			#divlogin{
+				background-color: #26282A;
+				padding: 0px 10px 0px 10px;
+				width: 490px;
+				height: 265px;
+				box-shadow: 0px 0px 10px 2px red;
+				border-radius: 30px;
+				
+			}
+
+			footer{
+				clear: both;
+			}
+		</style>
+	</head>
+			<!--- CORPO --->
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+				<a href="#" class="navbar-brand"><img src="logo.png" style="width: 70px; height: 50px;"></a>
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+  				<span class="navbar-toggler-icon"></span>
+  				</button>
+
+				 <div class="collapse navbar-collapse" id="menu">
+    				<ul class="navbar-nav ml-md-auto">
+						<li class="nav-item"><a href="#" style="color: white;" class="nav-link">Guia</a></li>
+						<li class="nav-item"><a href="#" style="color: white;" class="nav-link">Fórum</a></li>
+						<li class="nav-item"><a href="#" style="color: white;" class="nav-link">Sobre nós</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<br><br>
+					<div id="divlogin" class="container" style="text-align:center; padding: 50px 0px 0px 0px;">
+				<form>
+					<label style="font-size:25px; color: white;">Login: </label><input type="text" id="entrar" name="nome">
+					<br>
+					<labe style="font-size:25px; color: white;">Senha:</labe><input type="password" name="senha" placeholder="">
+
+					<br><br>
+
+					<div class="row">
+					<div class="col-md-6" style="text-align:right;">
+					<a href="#" class="btn" style="background-color: #D3D3D3;">ENTRAR</a>
+					</div>
+					<div class="col-md-6" style="text-align:left;">
+					<a href="#" id="cadastrar" class="btn" style="background-color: #D3D3D3;">CADASTRAR</a>
+					</div>
+					</div>
+					<br>
+					<a href="#" style="padding: 0px 0px 0px 320px;">Esqueci minha seha</a>
+					<br><br>
+					</div>
+				</form>
+			</div>
+		</div>
+		<footer>
+
+			<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+		</footer>
+	</body>
+	</html>				
